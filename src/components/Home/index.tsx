@@ -3,32 +3,15 @@ import React from 'react';
 import { Container } from './styles';
 
 import NavBar from '../NavBar';
+import Item from '../Item';
+import Routes from '../../Routes';
 
-const items = [
-  {
-    name: 'home',
-    path: '/home'
-  },
-
-  {
-    name: 'Assistencia',
-    path: '/Assistencia'
-  },
-
-  {
-    name: 'Linha Completa',
-    path: '/LinhaCompleta',
-  },
-
-  {
-    name: 'Contato',
-    path: '/Contato'
-  }
-]
+const items = Routes;
 
 const Home: React.FC = () => {
   return (
     <Container>
+      <h1>this home</h1>
       <NavBar items={items} />
     </Container>
   );

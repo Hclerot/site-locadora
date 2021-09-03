@@ -8,14 +8,17 @@ interface ItemType {
 }
 
 const Item: React.FC<ItemType> = ({ name, path }) => {
+  console.log('entrou no item');
+  console.log(name, path)
   return (
     <Container>
-      <h1>meu cu é meu</h1>
       {/* <li><a href={path}>{name}</a></li> */}
+      {console.log('entrou no item')}
       <div>
         <h1>{name}</h1>
         <h1>{path}</h1>
       </div>
+      
       
     </Container>
   );

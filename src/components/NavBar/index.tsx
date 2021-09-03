@@ -16,9 +16,16 @@ const NavBar: React.FC<NavBarProps> = ({items}) => {
 
   return (
     <Container>
-      {items.map(item=>{
-        <Item {...item} />
-      })}
+      <Item name="home" path="nsei" />
+      {
+          items.map((item)=>{
+            
+            return <Item name={item.name} path={item.path} />
+            console.log('entrou no map', item.name)
+            ;
+          })
+      }
+
     </Container>
   )
 }
