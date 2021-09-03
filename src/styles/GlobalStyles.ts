@@ -9,7 +9,7 @@ export default createGlobalStyle`
 
   html, body, #root {
     max-width: 100vw;
-    max-height: 100vh;
+    max-height: 150rem;
 
     width: 100%;
     height: 100%;
@@ -20,6 +20,12 @@ export default createGlobalStyle`
     --secondary: ;
     --white: #f0f0f0;
     --black: #000000;
-    
+    --speed: 500ms;
+    --border-radius: .5rem;
+    --border: 1px solid #474a4d;
+    --bg: #242526;
+    --bg-accent: #484a4d;
+    --nav-size: 3.75rem;
+    --text-color: #dadce1;
   }
 `;
