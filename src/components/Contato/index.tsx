@@ -2,13 +2,12 @@ import React from 'react';
 
 import { Container } from './styles';
 
-
-const Home: React.FC = () => {
+const Contato: React.FC = () => {
   return (
     <Container>
-      <h1>this home</h1>
+      <h1>Contato</h1>
     </Container>
   );
 }
 
-export default Home;
+export default Contato;

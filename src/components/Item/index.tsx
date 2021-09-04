@@ -16,7 +16,6 @@ const Item: React.FC<ItemType> = ({ name, path }) => {
       {console.log('entrou no item')}
       <div>
         <h1>{name}</h1>
-        <h1>{path}</h1>
       </div>
       
       

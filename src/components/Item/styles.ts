@@ -5,6 +5,7 @@ export const Container = styled.div`
   align-content: center;
   width: 100%;
   height: 100%;
-  background: var(--bg-accent);
-
+  background: var(--bg);
+  border-left: var(--border);
+  color: var(--text-color);
 `;
