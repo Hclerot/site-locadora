@@ -1,0 +1,21 @@
+.header {
+  padding: 1rem;
+  background: #ccc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  &__logo {
+    width: 50%;
+  }
+  &__navbar {
+    display: flex;
+    justify-content: center;
+    &__item {
+      list-style: none;
+      padding: 1rem;
+      padding-bottom: 0;
+      text-transform: uppercase;
+    }
+  }
+}

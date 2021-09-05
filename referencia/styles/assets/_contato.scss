@@ -1,0 +1,29 @@
+.contato {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 2rem 0;
+    &__left {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      margin: 0 2rem 0;
+    }
+    &__right {
+      margin: 2rem 2rem 0;
+      &__endereco {
+        margin: 2rem 2rem 0;
+      }
+
+      &__orcamento {
+        margin: 2rem 2rem 0;
+        border-top: solid 1rem orange;
+        padding-top: 1rem;
+      }
+    }
+  }
+}
